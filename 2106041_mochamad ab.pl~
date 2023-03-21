@@ -1,0 +1,7 @@
+ayah(adang, undang).
+ibu(dina, rani).
+anak(iwan, khaerani).
+
+is_ayah(X,Y) :- ayah(X,Y).
+is_ibu(X,Y) :- ibu(X,Y).
+is_anak(Y,Z):- anak(X,Y).
